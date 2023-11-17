@@ -1,0 +1,115 @@
+.cardContainer {
+    border-radius: 25px 25px 0px 0px;
+    background: #ffffff;
+    padding: 20px;
+    text-align: left;
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+}
+
+.descImg {
+
+    width: 100%;
+    height: 100%;
+    object-fit: cover
+}
+
+@media (min-width: 320px) and (max-width:480px) {
+    .cardContainer {
+        bottom: -40%;
+    }
+
+    .descImg {
+
+
+        object-fit: none
+    }
+}
+
+@media (min-width: 480px) and (max-width:772px) {
+    .cardContainer {
+        bottom: -30%;
+    }
+
+    .descImg {
+        object-fit: none
+    }
+}
+
+@media (min-width: 220px) and (max-width:320px) {
+    .cardContainer {
+        bottom: -60%;
+    }
+
+    .descImg {
+
+
+        object-fit: none
+    }
+}
+
+.listCard {
+
+    margin: 1% auto;
+    padding: 1%;
+
+}
+
+.restaurantName {
+    color: #1E232C;
+    font-family: Urbanist;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.restaurantAddress {
+    color: #505259;
+    font-family: Urbanist;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.trendOffer {
+    color: #D39171;
+    font-family: Urbanist;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-top: 15px;
+}
+
+.shareIcon {
+    position: absolute;
+    right: 25px;
+    top: 25px;
+    color: #ff5f5f;
+    width: 10%;
+    height: 10%;
+}
+
+.restaurantDesc {
+    color: #515151;
+    font-family: Urbanist;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 120%;
+    margin-top: 15px
+        /* 16.8px */
+}
+
+.imposedLogo {
+    position: absolute;
+    top: 50%;
+    width: 15%;
+
+    border-radius: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}

@@ -1,6 +1,6 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Fastor App",
+  "name": "Fastor App: Restaurant List & Details",
   "icons": [
     {
       "src": "favicon.ico",

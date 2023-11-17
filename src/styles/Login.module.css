@@ -46,6 +46,7 @@
     width: 100%;
     margin: 30px auto 25px auto;
     height: 56px;
+    padding-left: 20px;
     /* 18.75px */
 }
 
@@ -64,4 +65,22 @@
     margin: auto;
     height: 56px;
     text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.OtpInputBox {
+    display: flex;
+    border-radius: 8px;
+    border: 1px solid var(--Border, #E8ECF4);
+    background: #F7F8F9;
+    width: 49px;
+    height: 60px;
+    flex-shrink: 0;
+    margin: 25px auto 20px auto;
+    font-family: 'Urbanist', sans-serif;
+    padding: 18px;
+    font-size: 16px;
+    font-weight: 500;
 }
